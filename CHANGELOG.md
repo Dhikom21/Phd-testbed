@@ -11,8 +11,8 @@
 - kind multi-node cluster + KWOK mirror cluster
 - Prometheus + Grafana stack deployed (instrumentation pending)
 - All policy paths tested via curl: ALLOW, BLOCK-protected, BLOCK-namespace
-- End-to-end ALLOWED execution actually modifies kind cluster
+
 
 ### Notes
 - Observability stack runs but does not yet scrape application metrics
-- Action observability today: JSONL log + container stdout
+  
