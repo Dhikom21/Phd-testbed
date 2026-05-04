@@ -1,0 +1,24 @@
+# Logs and runtime data
+logs/
+observability/grafana-data/
+observability/prometheus-data/
+*.log
+
+# Local kubeconfigs (security: contains credentials)
+kubeconfig-*.yaml
+*.kubeconfig
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker build artifacts
+*.tar
