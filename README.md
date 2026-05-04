@@ -1,4 +1,4 @@
-# PhD Testbed: Verification Layer for Autonomous K8s Agents
+# PhD Testbed: Verification Layer 
 
 A research testbed for studying simulation-gated execution as a safety
 mechanism for unconstrained AI agents acting on Kubernetes clusters.
