@@ -24,7 +24,7 @@ from mcp.server.fastmcp import FastMCP
 # verification service if needed.
 VERIFICATION_URL = os.getenv("VERIFICATION_URL", "http://localhost:5000/verify")
 
-mcp = FastMCP("verification-layer")
+mcp = FastMCP("verification-layer", host="0.0.0.0", port=8080)
 
 
 @mcp.tool()
@@ -125,4 +125,4 @@ def health_check() -> dict:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="streamable-http")
