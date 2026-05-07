@@ -31,6 +31,7 @@ See `COMMANDS.md` for the operational command reference.
 
 ## Pending
 
-- v0.2.0 — Prometheus metrics from verification service + Grafana dashboards
+- v0.2.0 — Containerized MCP Wrapper for verification layer
 - v0.3.0 — OpenClaw container (LLM agent) integration
-- v0.4.0 — KWOK simulation step in policy decisions (research contribution)
+- v0.4.0 — Prometheus and grafana dashboard
+- v0.5.0 — KWOK simulation step in policy decisions 
