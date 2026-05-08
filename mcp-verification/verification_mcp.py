@@ -6,7 +6,7 @@ Exposes the verification layer as an MCP tool that any MCP client
 
 Architecture:
     LLM client (Claude Desktop, etc.)
-        ↓ stdio (MCP protocol)
+        ↓ streamable HTTP (MCP protocol)
     THIS PROCESS — verification_mcp.py
         ↓ HTTP POST
     Verification service (localhost:5000)
