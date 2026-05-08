@@ -29,7 +29,7 @@ Defense-in-depth across five layers:
 
 See `COMMANDS.md` for the operational command reference.
 
-## Pending
+## Pending (will be updated later)
 
 - v0.2.0 — Containerized MCP Wrapper for verification layer
 - v0.3.0 — OpenClaw container (LLM agent) integration
